@@ -1,0 +1,21 @@
+{
+  "name": "simple-stock-flow/phase4",
+  "description": "Phase 4 PHP infrastructure and test harness for Simple Stock Flow",
+  "type": "project",
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
